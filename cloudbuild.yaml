@@ -21,6 +21,6 @@ steps:
     args: ['-n', 'prod', 'apply', '-f', 'prod/deployment.yaml']
     env:
     - 'CLOUDSDK_COMPUTE_REGION=us-central1-f'
-    - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cluster'
+    - 'CLOUDSDK_CONTAINER_CLUSTER=hello-cloudbuild'
 options:
  logging: CLOUD_LOGGING_ONLY
